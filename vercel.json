@@ -2,10 +2,5 @@
   "buildCommand": "pip install -r requirements.txt",
   "devCommand": "streamlit run main.py --server.port $PORT --server.headless true --server.enableCORS false --server.enableXsrfProtection false",
   "installCommand": "pip install -r requirements.txt",
-  "framework": null,
-  "functions": {
-    "main.py": {
-      "runtime": "python3.12"
-    }
-  }
+  "framework": null
 }
