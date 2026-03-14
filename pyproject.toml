@@ -1,7 +1,12 @@
 [project]
 name = "ai-resume-analyser"
 version = "0.1.0"
-description = "Add your description here"
+description = "AI-powered resume analyzer using Streamlit and Google Gemini"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "streamlit",
+    "PyPDF2",
+    "python-dotenv",
+    "google-generativeai"
+]
